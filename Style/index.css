@@ -1,0 +1,29 @@
+.main {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.smile__list {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.smile__list .smile__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.smile__list .smile__item img {
+    width: 100px;
+    height: 100px;
+}
+
+.smile__list .smile__item p {
+    font-size: 24px;
+}
